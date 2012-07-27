@@ -22,9 +22,9 @@ log(3,{This:"Is an object"});
 
 Outputs:
 ```javascript
-   [ INFO]: Information
-   [ WARN]: Warning
-   [ERROR]: Error
+   [ INFO]: Information 
+   [ WARN]: Warning 
+   [ERROR]: Error 
    [ INFO]: Non-existant log level
    [ INFO]:
         This    :       Is an object
