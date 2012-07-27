@@ -20,15 +20,16 @@ log(3,"Non-existant log level");
 log(3,{This:"Is an object"});
 ```
 
-OUTPUT:
-[ INFO]: Information
-[ WARN]: Warning
-[ERROR]: Error
-[ INFO]: Non-existant log level
-[ INFO]:
+Outputs:
+```
+\[ INFO\]: Information
+\[ WARN\]: Warning
+\[ERROR\]: Error
+\[ INFO\]: Non-existant log level
+\[ INFO\]:
         This    :       Is an object
         And     :       I haas keys
-
+```
 
 Is this All?
 ------------
