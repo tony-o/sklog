@@ -22,8 +22,8 @@ log(3,{This:"Is an object"});
 
 Outputs:
 ```
-   \[ INFO]: Information
-   \[ WARN]: Warning
+   [[ INFO]: Information
+   `[ WARN]: Warning
    \[ERROR]: Error
    \[ INFO]: Non-existant log level
    \[ INFO]:
