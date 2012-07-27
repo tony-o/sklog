@@ -17,11 +17,11 @@ log(0,"This is Information");
 log(1,"This is a Warning");
 log(2,"This is an Error");
 log(3,"Non-existant log level");
-log(3,{This:"Is an object"});
+log(3,{This:"Is an object",And:"I haas keys"});
 ```
 
 Outputs:
-```javascript
+```
    [ INFO]: This is Information 
    [ WARN]: This is a Warning 
    [ERROR]: This is an Error 
