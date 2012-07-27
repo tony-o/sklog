@@ -19,8 +19,8 @@ log(2,"Error");
 log(3,"Non-existant log level");
 log(3,{This:"Is an object"});
 ```
-```
-//OUTPUT:
+
+OUTPUT:
 [ INFO]: Information
 [ WARN]: Warning
 [ERROR]: Error
@@ -28,7 +28,7 @@ log(3,{This:"Is an object"});
 [ INFO]:
         This    :       Is an object
         And     :       I haas keys
-```
+
 
 Is this All?
 ------------
