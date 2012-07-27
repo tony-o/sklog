@@ -13,18 +13,18 @@ Within your application:
 var log = require("sklog");
 
 log("no loglevel");
-log(0,"Information");
-log(1,"Warning");
-log(2,"Error");
+log(0,"This is Information");
+log(1,"This is a Warning");
+log(2,"This is an Error");
 log(3,"Non-existant log level");
 log(3,{This:"Is an object"});
 ```
 
 Outputs:
 ```javascript
-   [ INFO]: Information 
-   [ WARN]: Warning 
-   [ERROR]: Error 
+   [ INFO]: This is Information 
+   [ WARN]: This is a Warning 
+   [ERROR]: This is an Error 
    [ INFO]: Non-existant log level
    [ INFO]:
         This    :       Is an object
